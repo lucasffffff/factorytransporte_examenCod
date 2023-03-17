@@ -9,6 +9,7 @@ En la tarea de Factory Transporte crea una rama nueva "barco".
 Añade que la Factory pueda también tener objetos de tipo Barco.
 
 Entrega el repositorio
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Para crear la rama barco en la tarea factorytransporte tengo que seguir los siguientes pasos:
