@@ -12,14 +12,17 @@ public class FactoryTransporte {
     public static void main(String[] args) {
         Transporte camion = new Camion();
         Transporte bicicleta = new Bicicleta();
+        Transporte barco = new Barco();
 
         int cp = 12345;
         System.out.println("Total camion: " + camion.costeTotal(cp));
         System.out.println("Total bicicleta: " + bicicleta.costeTotal(cp));
+        System.out.println("Total barco: " + barco.costeTotal(cp));
 
         float x = 0.5f, y = 0.5f, z = 0.5f, peso = 10;
         System.out.println("Tipo de embalaje de camion: " + camion.tipoEmbalaje(x, y, z, peso));
         System.out.println("Tipo de embalaje de bicicleta: " + bicicleta.tipoEmbalaje(x, y, z, peso));
+        System.out.println("Tipo de embalaje de barco: " + barco.tipoEmbalaje(x, y, z, peso));
     }
 }
 
